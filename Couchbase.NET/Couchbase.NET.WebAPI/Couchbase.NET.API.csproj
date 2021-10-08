@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Couchbase.NET.Application\Couchbase.NET.Application.csproj" />
+    <ProjectReference Include="..\Couchbase.NET.Infrastructure.Dependency\Couchbase.NET.Infrastructure.Dependency.csproj" />
+  </ItemGroup>
+
+
+</Project>
